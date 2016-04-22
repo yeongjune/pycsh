@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/** 针对表单外围的框框所附加的特殊样式 **/
+.fieldset_border{ border: 1px solid #DEDEDE; margin: 8px 0; text-align: left; padding: 10px 8px 5px; }
+
+/** 针对表单标题文字所附加的特殊样式 **/
+.legend_title{ border: 1px solid #DEDEDE; color: #2164A6; font-weight: bold;  margin-left: 1px; margin-bottom:10px;  padding: 9px; background: #EFEFEF; }
+
+.form_search_item{ height: 30px;}
+
+
+/** 表格公共样式 **/
+.table_border{ width: 100%; border-collapse: collapse; margin: 5px 0 5px 0; }
+.table_border .head{ background: url(../images/main_07.gif) repeat-x; height: 26px; line-height: 26px; font-weight: bold; text-align: center; }
+.table_border .piece{ background: #f0f9ff;}
+.table_border td{ border: 1px solid #d3e5f3; text-align: center; line-height: 26px; }
+.table_border a{  color:#095785; text-decoration: none; }
+.table_border a:hover{  color:#095785; text-decoration: underline; }
+
+
+.table_border2{ width: 100%; border-collapse: collapse; margin: 5px 0 5px 0; }
+.table_border2 .head{ background:#efefef; height: 32px; line-height: 32px; font-weight: bold; text-align: center; font-size: 14px; font-family: "宋体"; }
+.table_border2 td{ border: 1px solid #DEDEDE; text-align: center; line-height: 32px; }
+
+/** 表格下方的按钮**/
+.table_under_btn{ background: #EFEFEF; height: 30px; line-height: 30px; padding:4px 12px 4px 8px; border-bottom: 1px solid #F0F0F0;
+                  border-top: 1px solid #dedede; margin-bottom: 5px; text-align: center;  }
+/**翻页样式 **/
+.flip{ text-align: center;}
+.flip a{  margin:0 1px; padding:6px 10px; border: 1px solid #DEDEDE;  }
+.flip a:hover, .flip .current{  cursor: pointer; background: #DEDEDE; color: #000; border: 1px solid #ccc;  }
+
+
+
+.form_item{  margin: 8px 0 12px 0; text-align: left; clear: both;}
+.form_span{ text-align: right; width: 140px; line-height: 22px; float: left; }
+.piece{ border:1px #D7D7D7 solid; height: 24px; width: 200px; padding-left:5px; color: #555; line-height: 24px; margin-right:5px; background: #FAFAFA; outline: none }
+.piece2{ border:1px #D7D7D7 solid; height: 24px; width: 60px; line-height: 24px; padding-left:5px; color: #555;  margin-right:5px; background: #FAFAFA; }
+.form_submit{ width:50%; margin: 8px 0 6px 0; float:left; text-align: left; padding-left: 135px; }
+.textarea_piece{ border: 1px solid #DEDEDE; outline: none;padding:3px; line-height:24px;}
+
+
+.view_rank{ margin: 4px 0 12px 0; float: left; text-align: left; width : 98%; }
+.view_rank_span{ float: left; text-align: right;width: 150px; } 
+
+.right_introduction{ text-align: left; width: 60%; line-height: 22px; float: left; }
+
+.nameUl{}
+
+.nameUl li{float: left;width: 100px;margin-bottom: 5px;line-height: 22px;}
+
+.nameUl li label{width:100%;text-align: left;}
+

@@ -1,0 +1,76 @@
+@charset "utf-8";
+
+/**清除内外边距**/
+*{margin: 0; padding: 0;}
+
+body { text-align: center; font-family: "宋体"; margin: 0;  padding: 0; background: #FFF; font-size: 12px; color: #666;}
+div, form, img, ul, ol, li, dl, dt, dd, th, td, p, img, button,   { margin: 0; padding: 0; border: 0; }
+li, dl{ list-style-type:none; }
+h1, h2, h3, h4, h5, h6, hr { margin: 0; padding: 0; font-weight: normal; font-size: 12px; text-decoration: none;}
+table{  padding: 0; margin: 0;  }
+img{ border: 0; }
+
+
+
+/** 超链接元素**/
+a{ color:#555; text-decoration:none;}
+a:hover{ text-decoration:none; color:#025ba7}
+
+
+
+.left{ float: left; }
+.right{ float: right; } 
+.clear { clear: both; font-size: 1px; height: 0; line-height: 0px; }
+
+
+.red{ color: #DA1C09;  }
+.blue{ color:#095785}
+.weight{ font-weight: bold;}
+
+/* 蓝色按钮样式*/
+.base_btn{ display:inline-block;height: 26px; background: #3b6ea5; padding-left: 15px; padding-right: 0;
+				 color: #FFF; line-height: 26px;  margin: 0 0 0 2px;}
+.base_btn:hover{ background: #92c1df;}
+.base_btn span{display:inline-block;height: 26px; background: #3b6ea5; line-height: 26px; 
+					padding-right: 15px; border: 0; color: #FFF;  margin: 0 0 0 2px; cursor: pointer; font-family: "微软雅黑"}
+.base_btn:hover span{ background: #92c1df; }
+
+/** 表格公共样式 **/
+.table_border{ width: 100%; border-collapse: collapse; margin: 5px 0 5px 0; }
+.table_border .head{ background: #3b6ea5; height: 26px; line-height: 26px; text-align: center; color: white;}
+.table_border .piece{ background: #f0f9ff;}
+.table_border td{ border: 1px solid #92c1df; text-align: center; line-height: 26px; }
+.table_border a{  color:#095785; text-decoration: none; }
+.table_border a:hover{  color:#095785; text-decoration: underline; }
+
+/** 表格下方的按钮**/
+.table_under_btn{ background: #EFEFEF; height: 30px; line-height: 30px; padding:4px 12px 4px 8px; border-bottom: 1px solid #F0F0F0;
+                  border-top: 1px solid #dedede; margin-bottom: 5px; text-align: center;  }
+/**翻页样式 **/
+.flip{ text-align: center;}
+.flip a{  margin:0 1px; padding:6px 10px; border: 1px solid #DEDEDE;  }
+.flip a:hover, .flip .current{  cursor: pointer; background: #DEDEDE; color: #000; border: 1px solid #ccc;  }
+
+/** 针对表单外围的框框所附加的特殊样式 **/
+.fieldset_border{ border: 0px; border-top: 1px solid #3b6ea5; margin: 8px 0; text-align: left; padding: 10px 8px 5px; }
+
+/** 针对表单标题文字所附加的特殊样式 **/
+.legend_title{ border: 1px solid #DEDEDE; color: #2164A6; margin-left: 1px; margin-bottom:10px;  padding: 9px; background: #EFEFEF; }
+
+.form_search_item{ height: 30px;}
+
+
+.form_item{  margin: 8px 0 12px 0; text-align: left; clear: both;}
+.form_span{ text-align: right; width: 140px; line-height: 22px; float: left; }
+.piece{ border:1px #D7D7D7 solid; height: 24px; width: 200px; padding-left:5px; color: #555; line-height: 24px; margin-right:5px; background: #FAFAFA; outline: none }
+.piece2{ border:1px #D7D7D7 solid; height: 24px; width: 60px; line-height: 24px; padding-left:5px; color: #555;  margin-right:5px; background: #FAFAFA; }
+.form_submit{ width:50%; margin: 8px 0 6px 0; float:left; text-align: left; padding-left: 135px; }
+.textarea_piece{ border: 1px solid #DEDEDE; outline: none;padding:3px; line-height:24px;}
+
+
+.view_rank{ margin: 4px 0 12px 0; float: left; text-align: left; width : 98%; }
+.view_rank_span{ float: left; text-align: right;width: 150px; } 
+
+.right_introduction{ text-align: left; width: 60%; line-height: 22px; float: left; }
+
+

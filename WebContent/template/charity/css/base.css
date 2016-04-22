@@ -1,0 +1,128 @@
+/*@charset "utf-8";
+/* 公共之标签样式 */
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, /* structural elements 结构元素 */
+dl, dt, dd, ul, ol, li, /* list elements 列表元素 */
+pre, /* text formatting elements 文本格式元素 */
+fieldset, lengend, button, input, textarea, /* form elements 表单元素 */
+th, td { /* table elements 表格元素 */
+    margin: 0;
+    padding: 0;
+}
+* {
+     margin: 0;
+    padding: 0;
+}
+img,input {
+border:0;
+}
+ul, li { list-style-type: none; margin:0px; padding:0px;}
+body, input, select, button, textarea { font-size: 12px; font-family:微软雅黑; color:#666}
+button { cursor: pointer; }
+i, em, cite { font-style: normal; }
+aside section,.body{display:block; width:1000px; margin:0 auto;}
+a, a:link { color:#666; text-decoration: none; }/*设置a标签基本样式与伪类选择器设置*/
+a:visited {}
+a:active, a:hover { text-decoration: none; color:#409c5a; }
+a:focus { outline: none; } 
+body .orange { color:#F26E01;}
+body .blue{ color:#005FB6;}
+sup {
+color:#F00;margin-left:3px;float:left;
+}
+.clear {
+	clear:both;
+}
+.left {
+float:left;
+}
+.right {
+float:right;
+}
+.noFloat {
+float:none;
+}
+.green{ color:#66b07d}
+/**文字超出隐藏**/
+.overflow{ white-space: nowrap;text-overflow: ellipsis;overflow: hidden;}
+
+.font_16{ font-size:16px; color:#999; font-weight: normal}
+
+.noimg{height:100%;width:0;}	
+/* 公共之标签 */
+
+/* -----------------主体----------------------------------------------- */
+.header{ width:100%; background:#FFF; height:160px; }
+.header_box{ width:1000px; margin: 0 auto; }
+.welcome{width:1000px; float: left; padding:15px 0 25px; color:#919191;}
+.welcome .left a{ color:#555;}
+.welcome .left a:hover{ text-decoration: underline}
+.orange{ font-size:16px; color:#ffa800}
+.logo{ float: left;}
+
+.menu {float: right; }
+.menu  ul{ float:left;position:relative; padding: 7px 0 0 0px;}
+.menu  ul li{ float:left; margin-left: 4px;}
+.menu  ul li >a{  font-size:18px; color:#66b07d; float: left; width:85px; height:36px; line-height:36px; text-align: center; margin-left:6px;}
+.menu ul li a:hover , .menu ul li a.hover{background:#ffa800; color:#FFF; font-weight: bold;}
+.menu ul li .Menu_dl {
+    height:7px;width:1px;background-color:#05a2dc;border-left:1px solid #01739f;float:left;margin:5px 17px 0px 0px;
+}
+.menu ul li .twoMenu { position:absolute;top:38px;left:7px; z-index:99;background-color:#FFF;top:38px\9;}
+.menu ul li .twoMenu a{ display:block;width:84px;height:38px;text-align:center;line-height:38px; font-size:14px; }
+.menu ul li .twoMenu a:hover , .menu_d .menu ul li .twoMenu a:hover{ color:#ffa800; background:#FFF }
+.fgx{
+    float:left; color:#685957;font-size:12px;line-height:24px; padding-left:12px;
+}
+
+.menu ul li .twoMenu .twoMenuTitle a:hover , .menu ul li .twoMenu .twoMenuTitle a:hover{
+    text-decoration:underline;
+}
+
+.banner{ width:100%; height:300px; }
+.one{ background:#2c4259}
+.img{ width:1000px; margin: 0 auto}
+
+.block{ width:1000px; margin: 0 auto; position:relative}
+.block ul{ position: absolute; bottom:15px; left:415px; width:150px;}
+.block li{ float: left;margin-right:15px;}
+.block a{ background:#FFF; width:32px; height:7px; float: left;  display: block; cursor: pointer}
+.block a.or{ background:#ffa800;}
+
+.box{ margin: 0 auto; width:1000px; position:relative}
+.po_b{ position: fixed; bottom:150px; right:0px; background:#fff; width: 70px; height:160px; border: 1px solid #DEDEDE;z-index: 999}
+.po_weixin{ position: fixed; bottom:150px; right:70px; background:#fff; width: 160px; height:160px; border: 1px solid #DEDEDE;z-index: 999}
+.po_b a{ margin-bottom:10px; color:#999; line-height:18px; text-align: center; width:70px; text-align:center; float: left}
+.po_b a:hover{ color:#555}
+.po_b .wcsm{ background: url(../images/code.jpg) no-repeat left center; display: inline-block; width:37px; height:50px;}
+.po_b .fhdb{ background: url(../images/top.jpg) no-repeat left center; display: inline-block;width:37px; height:50px;}
+
+.foot{ padding:20px 0; margin-top:5px; background:#66b07d; line-height:26px; color:#FFF; font-size:14px; text-align: center}
+
+.foot .links {}
+.foot .links a {margin:0px 6px;color: #FFF; }
+.foot .links a:HOVER{ text-decoration: underline}
+
+
+.ty_g{ padding-top:10px; color:#999; font-size:14PX;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+
+/**CSS form 表单样式**/
+
+/** 表单外围定位 **/
+.form_layout{  
+	margin: 0 auto; 
+	text-align: left; 
+	width: 400px; }
+/** 每一个表单项定位 **/
+.form_item{ margin: 4px 0 12px 0; text-align: left; }
+/** 表单项标签名 **/
+.form_item span{ 
+	float: left; 
+	text-align: right;
+	width: 120px;
+	line-height: 20px; }
+	
+/** 针对表单输入框的一个美化**/
+.form_item .piece{ 
+     border:1px #D7D7D7 solid; 
+ height: 20px;
+ width:200px;
+ line-height: 20px; 
+ background: #FAFAFA; }
+
+/** 针对表单无标签名的，例如提交按钮所附加的特殊样式 **/
+.form_submit{ padding-left: 120px; margin: 4px 0 8px 0; }
+
+/** 针对表单标题文字所附加的特殊样式 **/
+.form_title{ border: 1px solid #F0F0F0; color: #1e7bad; margin-left: 5px; text-align: left; text-indent: 8px; }
+
+/** 针对表单外围的框框所附加的特殊样式 **/
+.boder, .border{ border: 1px solid #F2F2F2; margin-bottom:5px; text-align: left }

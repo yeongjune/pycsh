@@ -1,0 +1,144 @@
+@charset "utf-8";
+
+/**清除内外边距**/
+*{margin: 0; padding: 0;}
+html, body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;;
+}
+#frame_head{
+	height: 50px;
+	background: #3b6ea5;
+}
+#frame_menubar{
+	height: 32px;
+	background: #3b6ea5;
+}
+#frame_menubar a{
+	color: white;
+	font-size: 12px;
+	line-height: 32px;
+	height: 100%;
+	display: block;
+}
+#frame_menubar span{
+	height: 100%;
+	display: block;
+	margin: 0 5px 0 5px;
+}
+#frame_menubar .left{
+	width: 66%;
+	float: left;
+	height: 100%;
+}
+#frame_menubar .right{
+	width: 33%;
+	float: right;
+	height: 100%;
+}
+#frame_menubar .left span{
+	float: left;
+	width: 100px;
+}
+#frame_menubar .left a:hover{
+	background: #fff;
+	color: #3b6ea5;
+}
+#frame_menubar .left .hover{
+	background: #fff;
+	color: #3b6ea5;
+}
+#frame_menubar .right span{
+	float: right;
+	width: 100px;
+}
+#frame_center{
+	margin: 5px 0 5px 0;
+	padding: 0;
+}
+#frame_left{
+	width: 196px;
+	float: left;
+	height: 100%;
+	border: 1px solid #3b6ea5;
+}
+#frame_right{
+	margin-left: 205px;
+	height: 100%;
+	border: 1px solid #3b6ea5;
+	overflow: auto;
+	position: relative;
+}
+#frame_foot{
+	height: 32px;
+	background: #3b6ea5;
+	line-height: 32px;
+	color: white;
+}
+
+.accordion_container{
+	background: #F1F9FF;
+	overflow: hidden;
+}
+.accordion_pane{
+	border-top: 1px solid #ccc;
+}
+.accordion_pane .head{
+	height: 31px;
+	cursor: pointer;
+}
+.accordion_pane .head a{
+	display: block;
+	width: 196px;
+	height: 31px;
+	font-size: 12px;
+	line-height: 32px;
+	color: #2164A6;
+	background: #efefef;
+}
+.accordion_pane .head a:hover{
+	width: 196px;
+	height: 31px;
+	color: white;
+	background: #3b6ea5;
+}
+.accordion_pane .hover a{
+	width: 196px;
+	height: 31px;
+	color: white;
+	background: #3b6ea5;
+}
+.accordion_pane .body{
+	background: white;
+	display: block;
+	overflow: auto;
+}
+.accordion_pane .body li{
+	height: 32px;
+	display: block;
+	cursor: pointer;
+}
+.accordion_pane .body li a{
+	height: 32px;
+	display: block;
+	font-size: 12px;
+	line-height: 32px;
+	text-align: left;
+	padding-left: 60px;
+}
+.accordion_pane .body li a:hover{
+	height: 30px;
+	line-height: 30px;
+	color: #2164A6;
+	border: 1px solid #efefef;
+}
+.accordion_pane .body .hover{
+	height: 30px;
+	line-height: 30px;
+	color: #2164A6;
+	border: 1px solid #efefef;
+}
+

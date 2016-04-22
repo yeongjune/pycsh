@@ -1,0 +1,134 @@
+
+
+div.flash {
+	width: 99%;
+	border-color: #D9E4FF;
+	margin: 5px auto;
+	-moz-border-radius-topleft : 5px;
+	-webkit-border-top-left-radius : 5px;
+    -moz-border-radius-topright : 5px;
+    -webkit-border-top-right-radius : 5px;
+    -moz-border-radius-bottomleft : 5px;
+    -webkit-border-bottom-left-radius : 5px;
+    -moz-border-radius-bottomright : 5px;
+    -webkit-border-bottom-right-radius : 5px;
+}
+
+
+label { 
+	width: 150px; 
+	text-align: right; 
+	display:block;
+	margin-right: 5px;
+}
+
+/* -- Table Styles ------------------------------- */
+
+.progressWrapper {
+	margin-left: 1px; 
+	overflow: hidden;
+}
+
+.progressContainer {
+	margin-top: 2px;
+	padding: 1px 5px;
+	border: solid 1px #E8E8E8;
+	overflow: hidden;
+}
+/* Message */
+.message {
+	margin: 1em 0;
+	padding: 10px 20px;
+	border: solid 1px #FFDD99;
+	background-color: #FFFFCC;
+	overflow: hidden;
+}
+/* Error */
+.red {
+	border: solid 1px #B50000;
+	background-color: #FFEBEB;
+}
+
+/* Current */
+.green {
+	border: solid 1px #DDF0DD;
+	background-color: #EBFFEB;
+}
+
+/* Complete */
+.blue {
+	border: solid 1px #CEE2F2;
+	background-color: #F0F5FF;
+}
+
+.progressName {
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 20px;
+	color: #555;
+	width: 100%;
+	text-align: left;
+	white-space: nowrap;
+	overflow: hidden;
+	padding-top: 4px;
+}
+
+
+.progressBarInProgress,
+.progressBarComplete,
+.progressBarError {
+	font-size: 0;
+	width: 0%;
+	height: 2px;
+	background-color: #4DB211;
+	margin-top: 2px;
+}
+
+.progressBarComplete {
+	width: 100%;
+	background-color: green;
+	visibility: hidden;
+}
+
+.progressBarError {
+	width: 100%;
+	background-color: red;
+	visibility: hidden;
+}
+
+.progressBarStatus {
+	color: #1D7BA0;
+	line-height: 16px; 
+	text-align: left;
+}
+
+a.progressCancel {
+	font-size: 0;
+	display: block;
+	height: 8px;
+	width: 8px;
+	margin: 5px 5px 0 0;
+	background-image: url(../images/close_hui.png);
+	background-repeat: no-repeat;
+	cursor: pointer;
+	float: right;
+}
+
+a.progressCancel:hover {
+	background-image: url(../images/close.png);
+}
+
+/* -- SWFUpload Object Styles ------------------------------- */
+.swfupload {
+vertical-align: top;
+position: absolute;
+z-index: 1;
+height: 30px;
+}
+
+#upload{background:#FFF; width:960px; margin: 0 auto; padding: 5px; border: 1px solid #CCC;  }
+.hideDiv{ display: none;   }
+
+
+
+ .uploadSelectType{ margin-right: 25px; }

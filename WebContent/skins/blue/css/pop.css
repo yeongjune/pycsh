@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* 选择人员的弹出框*/
+.select_box{ width: 405px; border: 1px solid #DEDEDE; padding:10px;}
+
+.select_l{ float: left; width: 180PX;}
+
+.select_l_t{ float: left; height: 250px;  border: 1px solid #DEDEDE;}
+.title{ float: left; width:181px; border-bottom: 1px solid #DEDEDE }
+.title a{ float: left; width: 90px; height: 28px; line-height: 28px; background:#EFEFEF; border-right: 1px solid #DEDEDE; position: relative}
+.title a:hover , .title a.hover{ background: #3399CC; color: #FFF;}
+
+.return{ padding: 8px 0 15px 8px; text-align: left; float: left; }
+.return a{ color: #999}
+
+.peo_list{ float: left; padding-top:5px; height: 175PX; width: 180px; overflow-y: scroll;  }
+.peo_list a{ float: left; width: 152px; height: 28px; line-height: 28px;  border-bottom: 1px solid #E9E9E9 ; text-align: left; padding-left: 8px}
+.peo_list a:hover{ font-weight: bold; }
+.peo_list a.hover{ font-weight: bold; background:#EFEFEF}
+
+.select_l_b{ float: left; height: 185px; width: 180px; border: 1px solid #DEDEDE; margin-top: 15px;}
+
+
+
+.select_c{ float: left; width: 40px;}
+.select_c_i{ float: left; padding:100px 0 0 12px; }
+.select_c_i a{ float: left; margin-bottom: 15px;}
+
+
+.select_r{ float: left; width: 180px; border: 1px solid #DEDEDE; height: 453PX;}
+
+
+/* 用户导入的弹出框*/
+
+.import_tip{ padding:15px 5px; text-align: center; line-height: 24px;}
+
+.work_progressbar{margin:0 auto; padding:1px; width:490px; height:24px; border: solid 1px #7bc3dc; position:relative;}
+.work_progressbar_bg{ height:24px;background-color: #d2e6ed;}
+.work_progressbar_text{  font-size:12px; color:#006395; left:0px;text-align:center; top:6px; overflow:hidden; position:absolute;width:100%;}
+
+.file-box { position: relative; width: 271px; float: left; margin-top: 10px; }
+.file-txt { height: 18px; width: 133px; color: #404040; border: 1px solid #ABADB3; cursor: pointer;}
+.file-btn { background-color: white; border: 1px solid #ABADB3; height: 22px; width: 60px; cursor: pointer;}
+.file-file { position: absolute; top: 0; border: none; left: 0px; height: 22px; filter: alpha(opacity:0); opacity: 0; width: 200px; cursor: pointer; }

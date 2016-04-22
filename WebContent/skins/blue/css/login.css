@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+.login_body{ background: #DEEBF1;}
+
+.login_box{ width: 1002px; height: 600px; left: 50%; top: 50%; margin-left:-501px; margin-top:-300px; position: absolute;
+		background: url(../images/login_image.png) no-repeat left top; border: 1px solid #D5E3E9; }
+
+
+
+.login_logo{ font-family: "微软雅黑"; color: #105d83; font-size:36px; text-align: center; padding-top:36px; height: 50px;}
+
+.login_emp_div{ width: 1002px; height: 148px; display: block}
+
+
+
+.login_main_div{ padding: 0px 0 0 333px; text-align: left}
+
+.form_main{ padding-left: 77px; }
+.form_main li{ margin-bottom: 15px;  height: 38px;  position:relative; text-align: left}
+.input_piece{ border:none; height: 38px; width: 270px; line-height: 38px; background: #00344e; 
+				outline: none; font-size: 16px; color: #FFF;font-family: "微软雅黑";  }
+.yzm_img{ position:absolute; left: 110px; top:6px;}
+.tip_text{ color:#CCC; font-family: "宋体"; padding-left:15PX;}
+.tip_text_t{color:#CCC; font-family: "宋体"; padding-left:75PX; }
+
+
+.btn_main{ width: 270px; padding: 8px 0 0 2px;}
+.btn_main li{ margin-bottom: 15px;  width: 270px;  position:relative; text-align: left}
+.checkbox_piece{ vertical-align:-2px; }
+
+.login_btn{ display:inline-block; height: 51px; background: url(../images/base.png) no-repeat left 0px; 
+				 color: #045e8b; line-height: 51px; width: 352px; text-align: center; font-size: 16px; font-family: "微软雅黑";}
+.login_btn:hover{ background: url(../images/base.png) no-repeat left -54px;}
+
+.login_foot{color: #DEDEDE; text-align: center; padding-top: 80px; }
+
+

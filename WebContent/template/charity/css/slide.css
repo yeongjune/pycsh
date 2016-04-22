@@ -1,0 +1,16 @@
+/*小的幻灯片 开始*/
+.s_s_d { width:100%; height:300px; }
+.s_s_d .Slideshow_s { width:1000px; height:300px;margin: 0 auto;  overflow:hidden;position:relative;bottom: 5px;padding-top: 5px;}
+.Slideshow_s >ul { float: left;width:200000px;position:relative;left:0px; }
+.Slideshow_s >ul li{ float:left; margin-right:10px; }
+.Slideshow_s >ul li a{ display:block; }
+.Slideshow_s >ul li .s_s_imgD{ width:1000px;height:300px;overflow:hidden; }
+.Slideshow_s >ul li .s_s_imgD img{ width:1000px;height:300px; margin: 0 auto }
+.Slideshow_s .Slideshow_num { background: url(../images/ss_num_bg.png) repeat top left;position: absolute;bottom: 0px;width:990px; z-index:99;padding:0px 5px;margin: 0 auto; }
+.Slideshow_s .Slideshow_num .s_s_Description { float:left;font-size:14px;color:#FFF;line-height:31px;max-width:170px;display:block;cursor:pointer; }
+.Slideshow_s .Slideshow_num .Slideshow_num_d {display:inline-block;float: right;margin-top: 12px; }
+.Slideshow_s .Slideshow_num ul{ float:left; }
+.Slideshow_s .Slideshow_num ul li{ float:left;margin-left:3px;}
+.Slideshow_s .Slideshow_num ul li .num_icon{ background:#FFF; width:6px; height:6px; float: left;  display: block; cursor: pointer}
+.Slideshow_s .Slideshow_num ul li .num_icon.num2{ background:#ffa800; }
+/*小的幻灯片 结束*/

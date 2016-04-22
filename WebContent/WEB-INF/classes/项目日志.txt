@@ -1,0 +1,27 @@
+执行数据库创建函数前先执行下面 开启数据库创建函数权限语 句
+set global log_bin_trust_function_creators=1;
+
+DELIMITER $$
+
+USE `site`$$
+
+
+
+CREATE DEFINER=`root`@`localhost` FUNCTION `getColumnChildList` (rootId INT) RETURNS VARCHAR(1000) CHARSET utf8
+BEGIN
+	DECLARE temp VARCHAR(1000);
+	 DECLARE tempChd VARCHAR(1000);
+	 SET temp='';
+	 SET tempChd=CAST(rootId AS CHAR);
+	 WHILE tempChd IS NOT NULL DO
+	        IF temp='' THEN 
+		 SET temp=tempChd;
+		ELSE
+		 SET temp=CONCAT(temp,',',tempChd); 
+		END IF;
+		SELECT GROUP_CONCAT(id) INTO tempChd FROM site_column WHERE FIND_IN_SET(pid,tempChd)>0;
+	 END WHILE;
+	 RETURN temp;
+    END$$
+
+DELIMITER ;

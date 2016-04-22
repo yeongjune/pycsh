@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd"
+  version="2.0">
+  
+  <tlib-version>1.0</tlib-version>
+  <jsp-version>1.1</jsp-version>
+  <short-name>rfn</short-name>
+  <uri>http://www.riicy.com/tag/functions</uri>
+  <info>function tag</info>
+  <!-- 栏目功能 Column Function -->
+  <function>
+	  <description>get the name of the specified column by columnId</description>
+	  <name>getColumnName</name>
+	  <function-class>com.tag.functions.ColumnFunctionTag</function-class>
+	  <function-signature>java.lang.String getColumnName(java.lang.Integer)</function-signature>
+	  <example>${fn:getColumnName(java.lang.Integer)}</example>
+  </function>
+  
+  <function>
+	  <description>get children columns by siteId and parent column id</description>
+	  <name>getChildrenColumn</name>
+	  <function-class>com.tag.functions.ColumnFunctionTag</function-class>
+	  <function-signature>java.util.List getChildrenColumn(java.lang.Integer, java.lang.Integer)</function-signature>
+	  <example>${fn:getChildrenColumn(java.lang.Integer, java.lang.Integer)}</example>
+  </function>
+  
+  <function>
+	  <description>get the level of the specified column by columnId</description>
+	  <name>getColumnLevel</name>
+	  <function-class>com.tag.functions.ColumnFunctionTag</function-class>
+	  <function-signature>java.lang.Integer getColumnLevel(java.lang.Integer)</function-signature>
+	  <example>${fn:getColumnLevel(java.lang.Integer)}</example>
+  </function>
+  
+  <function>
+	  <description>get siblings columns by siteId and column id</description>
+	  <name>getSiblingsColumnAndSelf</name>
+	  <function-class>com.tag.functions.ColumnFunctionTag</function-class>
+	  <function-signature>java.util.List getSiblingsColumnAndSelf(java.lang.Integer, java.lang.Integer)</function-signature>
+	  <example>${fn:getSiblingsColumnAndSelf(java.lang.Integer, java.lang.Integer)}</example>
+  </function>
+  
+  <function>
+	  <description>check the parentId and childId is relevant(In the same menu tree)</description>
+	  <name>checkIsRelevant</name>
+	  <function-class>com.tag.functions.ColumnFunctionTag</function-class>
+	  <function-signature>java.lang.Boolean checkIsRelevant(java.lang.Integer, java.lang.Integer)</function-signature>
+	  <example>${fn:checkIsRelevant(java.lang.Integer, java.lang.Integer)}</example>
+  </function>
+  
+  <function>
+	  <description>get the specified parent by columnId</description>
+	  <name>getParentColumn</name>
+	  <function-class>com.tag.functions.ColumnFunctionTag</function-class>
+	  <function-signature>java.util.Map getParentColumn(java.lang.Integer)</function-signature>
+	  <example>${fn:getParentColumn(java.lang.Integer)}</example>
+  </function>
+  <!-- 栏目功能 Column Function 结束 -->
+  
+  <!-- 新闻功能 Article Function 开始 -->
+  <function>
+	  <description>statistics article group by user</description>
+	  <name>getUserArticleStatistics</name>
+	  <function-class>com.tag.functions.ArticleFunctionTag</function-class>
+	  <function-signature>java.util.List getUserArticleStatistics(java.lang.Integer, java.lang.Integer)</function-signature>
+	  <example>${fn:getUserArticleStatistics(java.lang.Integer, java.lang.Integer)}</example>
+  </function>
+  
+  <function>
+	  <description>statistics article group by column</description>
+	  <name>getColumnArticleStatistics</name>
+	  <function-class>com.tag.functions.ArticleFunctionTag</function-class>
+	  <function-signature>java.util.List getColumnArticleStatistics(java.lang.Integer, java.lang.Integer)</function-signature>
+	  <example>${fn:getColumnArticleStatistics(java.lang.Integer, java.lang.Integer)}</example>
+  </function>
+  
+  <function>
+	  <description>statistics article group by column</description>
+	  <name>getArticleListByColumnId</name>
+	  <function-class>com.tag.functions.ArticleFunctionTag</function-class>
+	  <function-signature>java.util.List getArticleListByColumnId(java.lang.Integer, java.lang.Integer, java.lang.Integer)</function-signature>
+	  <example>${fn:getArticleListByColumnId(java.lang.Integer, java.lang.Integer, java.lang.Integer)}</example>
+  </function>
+  <!-- 新闻功能 Article Function 结束 -->
+</taglib>

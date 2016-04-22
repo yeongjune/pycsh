@@ -1,0 +1,102 @@
+@CHARSET "UTF-8";
+/* 文章新闻样式  */
+#div_item_smallPic img{
+ margin: 2px;
+ border:2px solid #DEDEDE;
+ border-radius:10px;
+ -moz-border-radius:10px;
+ -webkit-border-radius:10px;
+ width: 80px;
+ height: 80px;
+}
+#div_item_smallPic a{
+text-decoration: underline;
+cursor: pointer;
+}
+/* 隐藏缩略图 上传进度条  */
+#fsUploadProgress_1 {
+  display: none;
+}
+/* 隐藏图片列表上传进度条  */
+#fsUploadProgress_2 {
+  display: none;
+}
+/* 隐藏附件上传进度条  */
+#fsUploadProgress_3 {
+  margin: 0px;
+  padding: 0px;
+}
+.form_submit{
+padding-left: 140px;
+}
+
+/* kindeditor多文件上传布局问题样式控制  */
+.ke-dialog-content .swfupload{
+		height: 23px;
+		position :static;
+}
+/*缩略图*/
+.smallPic{
+	margin:5px;
+	width: 60px;
+	height: 60px;
+	cursor:pointer;
+	vertical-align: middle;
+	border:1px solid #DEDEDE;
+	border-radius:3px;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+}
+
+/* 图片列表样式 */
+#div_item_imgList{
+padding:3px;
+text-align: left;
+width:845px;
+min-height:0px;
+overflow:auto;
+border:1px solid #eee;
+border-radius:3px;
+-moz-border-radius:3px;
+-webkit-border-radius:3px;
+margin-left: 138px;
+clear: both;
+}
+
+#div_item_imgList div,divItemImg{
+ float: left;
+ width: 210px;
+ height: 220px;
+ text-align: center;
+ overflow: visible;
+}
+
+#div_item_imgList img{
+ border:2px solid #DEDEDE;
+ border-radius:10px;
+ -moz-border-radius:10px;
+ -webkit-border-radius:10px;
+ width: 200px;
+ height: 200px;
+} 
+#div_item_imgList a{
+cursor: pointer;
+}
+
+ul.listCommand{
+ width: 100%;
+}
+ul.listCommand li{
+ list-style: none;	
+ list-style-type:none;
+ float: left;
+ width:150px;
+ text-align: left;
+}
+ul.listCommand li label {
+ margin: 0px;
+ padding: 0px;
+ text-align: left;
+ width:150px;
+ clear: both;
+}

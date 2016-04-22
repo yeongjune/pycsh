@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="configSchema.xsd">
+
+<!-- 使用到的文字 -->
+	<!-- 网站标语 -->
+	<config name="title" value="广州市睿驰计算机科技有限公司 - 建站系统" />
+<!-- 使用到的文字 -->
+
+	
+<!-- 使用到的文件路径 -->
+	<!-- 上传附件文件路径 -->
+	<config name="uploadPath" value="D:/uploadPath" />
+<!-- 使用到的文件路径 -->
+
+
+	<!-- 每页显示数量 -->
+	<config name="pageSize" value="10"/>
+	<config name="currentPage" value="1"/>
+	
+	<!-- 每页显示数量可选数 -->
+	<configs name="pageSizes">
+		<config name="20" value="20"/>
+		<config name="15" value="15"/>
+		<config name="10" value="10"/>
+		<config name="8" value="8"/>
+	</configs>
+
+	<!-- 不需要登录就可以访问的菜单 -->
+	<configs name="excludeUrl">
+	
+		<!-- 注册登录、重置密码 -->
+		<config name="/login" value="/login/" />
+		<config name="/load/" value="/load/" />
+		<config name="/uploadFile/save" value="/uploadFile/save" />
+		
+		<!-- 工具方法 -->
+		<config name="/tools/" value="/tools/"/>
+
+        <!-- 微信接口 -->
+        <config name="/weiXinMsg" value="/weiXinMsg"/>
+        <!-- 微信接口 -->
+		<!-- 慈善项目 -->
+		<config name="/projectFront/" value="/projectFront/"/>
+		<config name="/donateFront/" value="/donateFront/"/>
+		<config name="weixinUser" value="weixinUser"/>
+
+        <config name="/wxUser/loadIndex.action" value="/wxUser/loadIndex.action"/>
+        <config name="/wxUser/loadGameIndex.action" value="/wxUser/loadGameIndex.action"/>
+		<config name="/wxUser/bindPhone.action" value="/wxUser/bindPhone.action"/>
+		<config name="/wxUser/getCodeUrl.action" value="/wxUser/getCodeUrl.action"/>
+		<config name="/wxUser/loadNews.action" value="/wxUser/loadNews.action"/>
+		<config name="/wxUser/loadNewsList.action" value="/wxUser/loadNewsList.action"/>
+		<config name="/wxpay/callback.action" value="/wxpay/callback.action"/>
+		<config name="/alipay/" value="/alipay/"/>
+		<config name="/wxUser/toIndex.action" value="/wxUser/toIndex.action"/>
+		<config name="/activityFront/" value="/activityFront/"/>
+		<config name="/imageFront/save.action" value="/imageFront/save.action"/>
+		<config name="/contributeFront/save.action" value="/contributeFront/save.action"/>
+		<config name="/userSign/" value="/userSign/"/>
+		<config name="/cshImage/" value="/cshImage/"/>
+		
+		<config name="/userSign/loadCharityProjectList.action" value="/userSign/loadCharityProjectList.action"/>
+		
+		<config name="/userSign/loadCharityRecord.action" value="/userSign/loadCharityRecord.action"/>
+		
+		
+	</configs>
+	<!-- 管理后台菜单 -->
+	<configs name="authorityUrl">
+		<config name="/authority" value="/authority" />
+		<config name="/system" value="/system" />
+		<config name="/excel" value="/excel" />
+	</configs>
+	<!-- 管理后台菜单 -->
+
+    <!-- 微信访问页面 -->
+    <configs name="weiXinUrl">
+        <config name="/wxUser" value="/wxUser"/>
+        <config name="/wxpay" value="/wxpay"/>
+        
+    </configs>
+
+    <!-- 微信访问页面 -->
+    <configs name="weiXinLoginUrl">
+        <config name="/wxUser/toBindPhone.action" value="/wxUser/toBindPhone.action"/>
+        <config name="/wxUser/toUserInfo.action" value="/wxUser/toUserInfo.action"/>
+        
+    </configs>
+    
+    <configs name="weiXinWebUrl">
+    	 <config name="/wxUser/toActivitySign/" value="/wxUser/toActivitySign/"/>
+    </configs>
+    
+	
+</root>
+

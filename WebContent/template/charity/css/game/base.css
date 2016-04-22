@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+
+ul,li,body,ol,dt,dl,dd,img,p,h1,h2,h3,h4,h5,input,hr,span{margin:0;padding:0;}
+ul,ol,li{list-style-type: none;}
+img{border:0 none;vertical-align: top;}
+b,i,em{font-weight: normal;font-style:normal;}
+
+/*消除浮动*/
+.clear:after,.clear:before{ content:"";display:table;}
+.clear{clear:both;}
+.clear:after{clear:both;}/*清除浮动的核心属性*/
+
+
+/* 统一设置 */
+body{font-family:Arial, "微软雅黑";font-size:12px;color:#333;}
+a{font-size:12px;font-family:Arial,"微软雅黑";color:#333;text-decoration:none;}
+a:hover{color:#409c5a;}
+.wrap{width: 1000px;margin:0 auto;}
+
+.fll{float:left;}
+.flr{float:right;}
+/*--------------------------------初始化结束----------------------------------*/
+
+body{min-width:1000px;background: #f0f0f0;}
+.header{height: 144px;padding-top: 20px;color:#919191;background: #fff;}
+.header_top a{color:#919191;padding-left:18px;}
+.header_top a:hover{color:#409c5a;text-decoration:underline;}
+.header_top b{padding-left:10px;}
+.header_top span{color:#ffa800;font-size: 16px;}
+.header_top{height: 60px;}
+.header_bottom h1{float: left;margin-right:35px;}
+.nav{padding-top:10px;}
+.nav li{float: left;margin-left:2px;}
+.nav li a{width: 104px;height: 37px;display:block;text-align: center;line-height: 37px;color:#409c5a;font-size: 18px;}
+.nav li a:hover{color:#fff;background: #ffa800;font-weight: bold;}
+
+.nav li.nav_li_hover a{color:#fff;background: #ffa800;font-weight: bold;}
+
+
+
+.banner{width: 100%;position: relative;padding-top: 22.2395%;overflow:hidden;}
+.banner ul{width: 300%;position: absolute;top:0;left:0;}
+.banner ul li{width: 33.333%;float: left;}
+.banner ol li{width: 32px;height: 7px;margin-right:18px;float: left;cursor:pointer;background: #fff;}
+.banner li.o_l_hover{background: #ffa800;}
+.banner ol{width: 150px;position: absolute;bottom:20px;margin-left:-66px;left:50%;}
+
+
+
+
+
+/*二维码+回到顶部*/
+.er_top{width: 48px;height: 138px;border: 1px solid #e6e6e6;position: fixed;right:0;bottom:80px;background: #fff;padding:12px 10px 10px;text-align: center;line-height: 25px;color:#646464;}
+.er_top .top{background: url(../../images/game/top.png) no-repeat center 0;padding-top:35px;margin-top:22px;cursor:pointer;}
+.er_img{position: absolute;top:-1px;left:-162px;border: 1px solid #e6e6e6;display:none;}
+
+
+.footer{background: #409c5a;margin-top:10px;padding-top:20px;padding-bottom:10px;text-align: center;line-height: 20px;color:#fff;}
+.footer a{color:#fff;padding-left:8px;}
+.footer a:hover{text-decoration: underline;}
+
+
